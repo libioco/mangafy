@@ -1,6 +1,8 @@
+import './styles.scss';
+
 function App() {
 	return (
-		<div>hello darren</div>
+		<div className="darren">hello darren</div>
 	);
 }
 
