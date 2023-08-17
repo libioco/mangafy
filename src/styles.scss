@@ -1,13 +1,53 @@
 .app {
     display: flex;
     justify-content: center;
+    font-family: Calibri, sans-serif;
 
     .container {
         width: 1024px;
 
         // login page
         .auth {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+            h1 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                width: 200px;
+                gap: 20px;
+            }
+
+            input {
+                padding: 10px;
+                border: none;
+                border-bottom: 1px solid black;
+            }
+
+            button {
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+            }
             
+            p {
+                font-size: 10px;
+                color: red;
+                text-align: center;
+            }
+
+            span {
+                font-size: 12px;
+                text-align: center;
+            }
         }
     }
 }
